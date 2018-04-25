@@ -1,0 +1,31 @@
+[
+  {
+    "n": 1,
+    "ddate": "2018.03.01",
+    "question": "Question_1",
+    "feature_groups": [
+      {"name": "FEATURE_GROUP_1"},
+      {"name": "FEATURE_GROUP_2"}
+    ],
+    "is_correct": true
+  },
+  {
+    "n": 2,
+    "ddate": "2018.03.02",
+    "question": "Question_2",
+    "feature_groups": [
+      {"name": "FEATURE_GROUP_21"},
+      {"name": "FEATURE_GROUP_22"}
+    ],
+    "is_correct": false
+  },
+  {
+    "n": 3,
+    "ddate": "2018.03.03",
+    "question": "Question_3",
+    "feature_groups": [
+      {"name": "FEATURE_GROUP_31"}
+    ],
+    "is_correct": true
+  }
+]

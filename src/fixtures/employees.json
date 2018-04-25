@@ -1,0 +1,54 @@
+[
+  {
+    "n": 1,
+    "name": "Анзарова В.П.",
+    "department": {
+      "n": 1,
+      "name": "Магазин №1"
+    },
+    "password": "123",
+    "employee_group": {
+      "n": 1,
+      "name": "Продавец"
+    }
+  },
+  {
+    "n": 2,
+    "name": "Балаев Д.С.",
+    "password": "123",
+    "department": {
+      "n": 2,
+      "name": "Магазин №2"
+    },
+    "employee_group": {
+      "n": 1,
+      "name": "Продавец"
+    }
+  },
+  {
+    "n": 3,
+    "name": "Вышинский К.В.",
+    "password": "123",
+    "department": {
+      "n": 1,
+      "name": "Магазин №1"
+    },
+    "employee_group": {
+      "n": 2,
+      "name": "Администратор"
+    }
+  },
+  {
+    "n": 4,
+    "name": "Нургалиев Р.Н.",
+    "password": "123",
+    "department": {
+      "n": 3,
+      "name": "Магазин №3"
+    },
+    "employee_group": {
+      "n": 1,
+      "name": "Продавец"
+    }
+  }
+]

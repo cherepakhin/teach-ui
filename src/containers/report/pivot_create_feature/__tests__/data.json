@@ -1,0 +1,30 @@
+[
+   {
+       "employee_name": "EMPLOYEE_1",
+       "qty": 2,
+       "results": [
+           {
+               "ddate": "2018-04-18",
+               "qty": 1
+           },
+           {
+               "ddate": "2018-04-20",
+               "qty": 12
+           }
+       ]
+   },
+   {
+       "employee_name": "EMPLOYEE_2",
+       "qty": 2,
+       "results": [
+           {
+               "ddate": "2018-04-19",
+               "qty": 1
+           },
+           {
+               "ddate": "2018-04-21",
+               "qty": 1
+           }
+       ]
+   }
+]

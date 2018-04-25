@@ -1,0 +1,10 @@
+syntax: glob
+.idea
+.tmp
+node_modules
+build
+dist
+jest
+*.sublime-workspace
+coverage
+index.css

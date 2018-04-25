@@ -1,0 +1,57 @@
+[
+ {
+     "employee_name": "NAME_1",
+     "qty_all": 5,
+     "qty_ok": 3,
+     "results": [
+         {
+             "ddate": "2018-03-02",
+             "qty_all": 3,
+             "qty_ok": 3
+         },
+         {
+             "ddate": "2018-03-20",
+             "qty_all": 3,
+             "qty_ok": 3
+         },
+         {
+             "ddate": "2018-03-21",
+             "qty_all": 2,
+             "qty_ok": 1
+         },
+         {
+             "ddate": "2018-03-22",
+             "qty_all": 2,
+             "qty_ok": 0
+         }
+     ]
+ },
+ {
+     "employee_name": "NAME_2",
+     "qty_all": 15,
+     "qty_ok": 13,
+     "results": [
+         {
+             "ddate": "2018-03-12",
+             "qty_all": 3,
+             "qty_ok": 3
+         },
+         {
+             "ddate": "2018-03-15",
+             "qty_all": 3,
+             "qty_ok": 3
+         },
+         {
+             "ddate": "2018-03-21",
+             "qty_all": 2,
+             "qty_ok": 1
+         },
+         {
+             "ddate": "2018-03-22",
+             "qty_all": 2,
+             "qty_ok": 0
+         }
+     ]
+ }
+
+]

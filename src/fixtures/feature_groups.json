@@ -1,0 +1,24 @@
+[
+  {
+    "n": 1,
+    "name": "FEATURE_GROUP_1",
+    "parent_n": null
+  },
+  {
+    "n": 2,
+    "name": "FEATURE_GROUP_2",
+    "parent_n": null
+  },
+  {
+    "n": 3,
+    "name": "FEATURE_GROUP_3",
+    "parent_n": null,
+    "children": [
+      {
+        "n": 31,
+        "name": "FEATURE_GROUP_31",
+        "parent_n": 3
+      }
+    ]
+  }
+]

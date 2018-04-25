@@ -1,0 +1,21 @@
+[
+    {
+        "employee_name": "NAME_1",
+        "feature_groups": [
+            {"qty_all": 1, "qty_ok": 1, "name": null},
+            {"qty_all": 1, "qty_ok": 0, "name": "GROUP_1"}
+        ],
+        "qty_all": 2,
+        "qty_ok": 1,
+        "qty_plan": 1
+    }, {
+        "employee_name": "NAME_2",
+        "feature_groups": [
+            {"qty_all": 1, "qty_ok": 1, "name": "GROUP_1"},
+            {"qty_all": 1, "qty_ok": 0, "name": "GROUP_2"}
+        ],
+        "qty_all": 100,
+        "qty_ok": 30,
+        "qty_plan": 2
+    }
+]

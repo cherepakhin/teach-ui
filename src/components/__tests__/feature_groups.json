@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "parent_n": -1,
+    "name": "group1",
+    "children": [
+      { "n": 11, "parent_n": 1, "name": "group11" },
+      { "n": 12, "parent_n": 1, "name": "group12" },
+      { "n": 13, "parent_n": 1, "name": "group13" },
+      { "n": 14, "parent_n": 1, "name": "group14" }
+    ]
+  },
+  {
+    "n": 2,
+    "parent_n": -1,
+    "name": "group2",
+    "children": [
+      { "n": 21, "parent_n": 2, "name": "group21" },
+      { "n": 22, "parent_n": 2, "name": "group22" }
+    ]
+  },
+  {
+    "n": 3,
+    "parent_n": -1,
+    "name": "group3",
+    "children": [
+      { "n": 31, "parent_n": 3, "name": "group31" },
+      { "n": 32, "parent_n": 3, "name": "group32" },
+      { "n": 33, "parent_n": 3, "name": "group33" }
+    ]
+  }
+]
