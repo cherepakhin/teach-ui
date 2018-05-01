@@ -20,3 +20,9 @@ yarn test
 ```bash
 yarn start
 ```
+
+[Демо-версия](http://v.el59.ru/teach)
+```
+Имя: Черепахин
+Пароль: 2222
+```
