@@ -97,6 +97,12 @@ class DlgDetailEmployeeReport extends PureComponent {
                   sortFn={this.resort}
                   currentSort={this.state.sortColumn}
                 />
+                <TableSortedColumn
+                  field='duration'
+                  label='Время ответа'
+                  sortFn={this.resort}
+                  currentSort={this.state.sortColumn}
+                />
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -108,7 +114,8 @@ class DlgDetailEmployeeReport extends PureComponent {
                    <TableColumn >{result.question.txt}</TableColumn >
                    <TableColumn >
                      <FontIcon style={{ color: result.is_correct ? 'green' : 'red' }}>{result.is_correct ? 'done' : 'clear'}</FontIcon>
-                   </TableColumn >
+                   </TableColumn>
+                   <TableColumn>{result.duration}</TableColumn>
                  </TableRow>))
               }
             </TableBody>
