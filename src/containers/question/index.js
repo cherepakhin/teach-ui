@@ -18,6 +18,7 @@ class QuestionPage extends React.Component {
     if (props.question.n > 0) {
       this.state = {
         selectedAnswerN: props.question.answers[0].n,
+        timeBegin: new Date(),
       };
     }
   }
@@ -49,7 +50,7 @@ class QuestionPage extends React.Component {
               iconChildren='play_arrow'
               iconBefore={false}
               onClick={() =>
-                (this.props.actions.sendAnswer(this.props.question.n, this.state.selectedAnswerN))
+                (this.props.actions.sendAnswer(this.props.question.n, this.state.selectedAnswerN, this.state.timeBegin, new Date()))
               }
             >Далее
             </Button>

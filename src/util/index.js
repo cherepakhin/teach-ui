@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 /**
  * Форматирование даты
  * @param  {Date} ddate [description]
@@ -34,3 +36,11 @@ export const formatNumber = function (num) {
   return num.toLocaleString('ru-RU', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 };
 
+/**
+ * Форматирование времени
+ */
+export const formatTime = function (time) {
+  const strTime = moment(time).format('YYYY-MM-DD H:mm:ss');
+  // console.log(strTime);
+  return strTime;
+};

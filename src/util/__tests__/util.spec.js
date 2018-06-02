@@ -1,4 +1,4 @@
-import { formatDate, formatNumber } from '../index';
+import { formatDate, formatNumber, formatTime } from '../index';
 
 describe('constatnts', () => {
   it('Форматирование даты formatDate', () => {
@@ -16,5 +16,10 @@ describe('constatnts', () => {
     const strToday = day.toISOString().slice(0, 10);
     // console.log(strToday);
     expect(new Date(Date.parse(strToday)).toISOString().slice(0, 10)).toEqual(strToday);
+  });
+
+  it('Форматирование времени formatTime', () => {
+    // console.log(formatTime(new Date()));
+    expect(formatTime(new Date(2018, 6, 1, 12, 13, 1))).toBe('2018-07-01 12:13:01');
   });
 });
