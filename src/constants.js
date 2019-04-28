@@ -38,8 +38,8 @@ export const CONST_ACTION = {
 };
 
 // export const URL_SERVER = 'http://192.168.2.21/mdt_api/v1';
-export const URL_SERVER = 'http://127.0.0.1:6543/v1';
-// export const URL_SERVER = 'http://v.el59.ru/mdt_api/v1'
+// export const URL_SERVER = 'http://127.0.0.1:6543/v1';
+export const URL_SERVER = 'http://v.perm.ru/teach_api/v1'
 // export const URL_SERVER = 'http://192.168.0.179/test_api/v1';
 // export const URL_SERVER = 'http://192.168.2.100:6543/mdt_api/v1';
 // export const URL_SERVER = 'http://192.168.1.10:6543/mdt_api/v1';
