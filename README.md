@@ -21,7 +21,7 @@ yarn test
 yarn start
 ```
 
-[Демо-версия](http://v.el59.ru/teach)
+[Демо-версия](http://v.perm.ru/teach)
 ```
 Имя: Черепахин
 Пароль: 2222
