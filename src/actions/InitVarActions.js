@@ -47,26 +47,35 @@ export const getNextQuestion = function () {
 
 export const login = function (name, password) {
   return (dispatch) => {
-    soFetch.post({ url: `${URL_SERVER}/login/`, data: { name, password } })
-      .then((json) => {
-        dispatch({
-          type: CONST_ACTION.SET_TOKEN,
-          payload: {
-            token: json.token,
-            user: json.employee.name,
-            role: json.employee.employee_group.name,
-          },
-        });
-        console.log(dispatch);
-        return initVar()(dispatch).then(() => {
-          console.log('End InitVar');
-          if (json.employee.employee_group.name !== 'Админ' && json.employee.employee_group.name !== '') {
-            return getNextQuestion(json.employee.name)(dispatch);
-          }
-          return dispatch;
-        });
-      }).catch((ex) => {
-        showMessage(dispatch, ex.message);
-      });
+    dispatch({
+            type: CONST_ACTION.SET_TOKEN,
+            payload: {
+              token: "token",
+              user: "vasi",
+              role: "admin",
+            },
+          });
+
+    // soFetch.post({ url: `${URL_SERVER}/login/`, data: { name, password } })
+    //   .then((json) => {
+    //     dispatch({
+    //       type: CONST_ACTION.SET_TOKEN,
+    //       payload: {
+    //         token: json.token,
+    //         user: json.employee.name,
+    //         role: json.employee.employee_group.name,
+    //       },
+    //     });
+    //     console.log(dispatch);
+    //     return initVar()(dispatch).then(() => {
+    //       console.log('End InitVar');
+    //       if (json.employee.employee_group.name !== 'Админ' && json.employee.employee_group.name !== '') {
+    //         return getNextQuestion(json.employee.name)(dispatch);
+    //       }
+    //       return dispatch;
+    //     });
+    //   }).catch((ex) => {
+    //     showMessage(dispatch, ex.message);
+    //   });
   };
 };

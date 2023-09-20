@@ -46,7 +46,7 @@ describe('EmployeeFeatureGrooupReport', () => {
     };
     const container = mount(<EmployeeFeatureGroupReport {...props} />);
     const yearField = container.find('TextField');
-    expect(yearField.props().defaultValue).toBe(2018);
+    expect(yearField.props().defaultValue).toBe(2023);
   });
 
   it('Init. Check FeatureGroupRow', () => {

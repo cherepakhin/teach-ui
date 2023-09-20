@@ -8,7 +8,7 @@ describe('constatnts', () => {
   it('Форматирование чисел', () => {
     const num = formatNumber(12345.678);
     // console.log(num);
-    expect(num).toBe('12,345.68');
+    expect(num).toBe('12 345,68');
   });
 
   it('parse Date', () => {

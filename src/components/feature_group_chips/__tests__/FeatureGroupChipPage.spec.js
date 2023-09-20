@@ -24,7 +24,7 @@ describe('FeatureGroupChipPage', () => {
     page.instance().selectFeatureGroups(arr);
     // console.log(arr);
     expect(page.state().selectedFeatureGroups.length).toBe(2);
-    expect(page.state().selectedFeatureGroups[0].name).toBe('name2');
+    expect(page.state().selectedFeatureGroups[0].name).toBe('name3');
   });
 
   // it('selectFeatureGroups. Отладка.', () => {
